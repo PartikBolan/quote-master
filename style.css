@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+body{
+    background-color: rgb(63, 42, 42);
+    background: url("assests/background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    overflow: hidden;
+    user-select: none;
+}
+.doubleQuote-image{
+    height: 10px;
+    position: relative;
+    top: -7px;
+    margin: 0 .4rem;
+}
+#quote{
+    display: inline;
+    font-size: 1.3rem;
+    line-height: 1.9rem;
+}
+.main-heading{
+    text-align: center;
+    width: 100%;
+    font-size: 2rem;
+    margin-top: 1rem;
+    color: chartreuse;
+}
+.outer-container{
+    width: 50%;
+    border: 1px solid black;
+    padding: 1rem 2rem;
+    border-radius: 20px ;
+    margin: 2rem auto;
+    box-shadow: 1px 1px 6px 1px black;
+    background-color: rgba(255, 255,255, .5);
+    backdrop-filter: blur(5px);
+}
+.quote-container{
+    padding: .5rem;
+    width: 100%;
+}
+#author{
+    text-align: end;
+    font-size: 1.1rem;
+    margin-top: .3rem;
+
+}
+#element{
+    display: inline-block;
+    font-size: 1.5rem;
+
+}
+#category{
+    font-size: .9rem;
+    margin-top: .3rem;
+}
+#getQuoteBtn{
+    position: relative;
+    left: 40%;
+    padding: .5rem;
+    color: white;
+    border: none;
+    border-radius: .2rem;
+    font-weight: 700;
+    background-color:rgba(27, 25, 25, .9);
+    margin-top: .5rem;
+}
+
+#getQuoteBtn:hover{
+    background-color: black;
+}
